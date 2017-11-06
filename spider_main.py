@@ -50,7 +50,7 @@ class SpiderMain(object):
                 self.outputer.collect_data(new_data)
 
                 # 爬取5个网页
-                if count == 1:
+                if count == 5:
                     break
                 count += 1
 
