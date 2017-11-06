@@ -5,8 +5,7 @@
 
 __author__ = 'King'
 
-
-from baike_spider import url_manager, html_downloader, html_parser, html_outputer
+import html_downloader, html_outputer, html_parser, url_manager
 
 class SpiderMain(object):
     def __init__(self):

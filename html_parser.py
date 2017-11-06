@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-' a test module '
-
 __author__ = 'King'
 
 from bs4 import BeautifulSoup
-import re
-import urllib.parse
-
+import re, urllib.parse
 
 class HtmlParser(object):
     def parse(self, page_url, html_cont):
